@@ -27,8 +27,7 @@ public class Factorial {
     @Test(expected = IllegalArgumentException.class)
     public void testNegativeFactorial() {
         factorial(-1);
-    }
-#hi 
+    } 
 
     public static void main(String[] args) {
         org.junit.runner.JUnitCore.main("Factorial");
